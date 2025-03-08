@@ -1,58 +1,64 @@
-# Defect Detection System
+# 🛠️ Defect Detection System
 
-## Project Overview
-This project is a defect detection system using the YOLOv8 model to identify defects in objects such as bottles. The system is designed for real-time detection and analysis.
+## 🚀 Overview
+This project is a cutting-edge **Defect Detection System** powered by **YOLOv8** for real-time object inspection. Designed to identify defects in bottles, it ensures quality control with **high accuracy and efficiency**.
 
-## Features
-- Uses YOLOv8 for object detection
-- Real-time defect identification
-- Model training and evaluation capabilities
-- Configurable dataset and model settings
+---
+## 🎯 Features
+✅ **YOLOv8-powered detection** 🔍
+✅ **Real-time defect identification** ⏳
+✅ **Custom model training support** 📊
+✅ **Configurable dataset & model settings** 🛠️
 
-## Project Structure
+---
+## 📂 Project Structure
 ```
 Defect_detection/
-│── best.pt                 # Trained model weights
-│── last.pt                 # Last training checkpoint
-│── yolov8l.pt              # Pre-trained YOLOv8 model
-│── detector.py             # Script for running defect detection
-│── train.py                # Script for training the model
-│── data.yaml               # Dataset configuration
-│── requirements.txt        # Dependencies
-│── Times New Roman.ttf     # Font file (possibly for GUI or annotation)
+├── 🏋 best.pt               # Best trained model weights
+├── ⏳ last.pt               # Last training checkpoint
+├── 📦 yolov8l.pt            # Pre-trained YOLOv8 model
+├── 🚀 detector.py           # Runs real-time detection
+├── 📜 train.py              # Training script
+├── ⚙️ data.yaml             # Dataset configuration
+├── 📌 requirements.txt      # Dependencies
+├── 🔤 Times New Roman.ttf   # Font file (for GUI/annotations)
 ```
 
-## Installation
+---
+## 🛠️ Installation
 ### Prerequisites
-Ensure you have Python installed. Recommended version: Python 3.8+
+Ensure you have **Python 3.8+** installed.
 
 ### Install Dependencies
-Run the following command to install the required packages:
 ```sh
 pip install -r requirements.txt
 ```
 
-## Usage
-### Running Detection
-To run real-time defect detection, execute:
+---
+## 🎬 Usage
+### 🕵️ Run Real-Time Detection
 ```sh
 python detector.py
 ```
 
-### Training the Model
-To train the model with custom data, run:
+### 🏋️ Train the Model
 ```sh
 python train.py
 ```
-Ensure that `data.yaml` is correctly configured with dataset paths.
+Ensure `data.yaml` is properly configured with dataset paths.
 
-## Configuration
-Modify `data.yaml` to define dataset paths, class labels, and other parameters for training.
+---
+## 🔧 Configuration
+Modify `data.yaml` to define **dataset paths, class labels, and training parameters**.
 
-## Model Weights
-- `best.pt`: The best-performing trained model.
-- `last.pt`: The latest checkpoint from training.
-- `yolov8l.pt`: The pre-trained YOLOv8 model.
+---
+## 📌 Model Weights
+- 🎯 `best.pt`: Best-performing trained model.
+- ⏳ `last.pt`: Latest checkpoint from training.
+- 🏗️ `yolov8l.pt`: Pre-trained YOLOv8 model.
 
-## Contributing
-Feel free to contribute to this project by improving detection accuracy, adding new features, or optimizing performance.
+---
+## 🤝 Contributing
+Want to improve accuracy, add features, or optimize performance? **Pull requests are welcome!** 🚀
+
+
